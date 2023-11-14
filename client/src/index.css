@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Make app min height being equal to the full window height,
+    so the empty board will be stretched to the full window height and will look OK */
+html,
+body,
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
