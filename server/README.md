@@ -1,13 +1,17 @@
 ## How to start the project
-1. Run **Docker Desktop**
+1. Open **Docker Desktop** application.
 [Download Docker Desktop](https://www.docker.com/products/docker-desktop)
-2. Run the Docker file _docker-compose.yml_:
+2. Run the Docker file _docker-compose.yml_ to start the **Dynamo Data Base**
 ```
 docker-compose up
 ```
-This line starts the Dynamo Data Base.
 
-3. Start Python application
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+4. Start Python application
 ```
 python app.py
 ```
